@@ -1,0 +1,43 @@
+{
+    "name": "nanofab/cylinders",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Hume",
+            "email": "hume@ualberta.ca"
+        }
+    ],
+    "homepage": "https://github.com/michaelhume/lmacs-cylinders",
+    "keywords": ["Laravel", "Cylinders"],
+    "require": {
+        "illuminate/support": "~6",
+        "spatie/laravel-sluggable": "^2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nanofab\\cylinders\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "nanofab\\cylinders\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "nanofab\\cylinders\\CylindersServiceProvider"
+            ],
+            "aliases": {
+                "Cylinders": "nanofab\\cylinders\\Facades\\Cylinders"
+            }
+        }
+    }
+}

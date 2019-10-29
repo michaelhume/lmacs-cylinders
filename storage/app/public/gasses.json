@@ -1,0 +1,46 @@
+{
+	"Argon": {
+		"name": "Argon",
+		"formula": "Ar"
+		},
+	"Ammonia": {
+		"name": "Ammonia",
+		"formula": "NH3"
+		},
+	"Boron Trichloride": {
+		"name": "Boron Trichloride",
+		"formula": "BCl3"
+		},
+	"Chlorine": {
+		"name": "Chlorine",
+		"formula": "Cl2"
+		},
+	"Trifluoromethane": {
+		"name": "Trifluoromethane",
+		"formula": "CHF3"
+		},
+	"Helium": {
+		"name": "Helium",
+		"formula": "He"
+		},
+	"Hydrogen Bromide": {
+		"name": "Hydrogen Bromide",
+		"formula": "HBr"
+	},
+	"Nitrogen": {
+		"name": "Nitrogen",
+		"formula": "N2"
+		},
+	"Nitrous Oxide": {
+		"name": "Nitrous Oxide",
+		"formula": "N2O"
+	},
+	"Oxygen": {
+		"name": "Oxygen",
+		"formula": "O2"
+		},
+	"Sulfur Hexafluoride": {
+		"name": "Sulfur Hexafluoride",
+		"formula": "SF6"
+		}
+}
