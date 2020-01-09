@@ -43,7 +43,7 @@ class CylinderController extends Controller
 	    
 	    Cylinder::create($this->validateCylinder());
 	    
-	    return redirect(route('cylinders::cylinders.index'));
+	    return redirect(route('cylinders.index'));
 	    
 
     }
